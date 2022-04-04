@@ -20,14 +20,38 @@ export default new Vuex.Store({
     addToCart({ commit}, item) {
       commit("addItemToCart", item);
     },
+    addQty({commit}, id){
+        commit("addQty", id);
+    },
+    reduceQty({commit}, id){
+        commit("reduceQty", id);
+    },
+    removeItem({commit}, id){
+      commit("removeItem", id);
+    }
   },
   mutations:{
     getProductData(state){
       state.products = products;
     },
     addItemToCart(state,item){
-     
+      const addedItem = state.cart.find(product => product.id === item.id);
+      if(addedItem){
+        addedItem.qty++
+      } else {
       state.cart.push({ ...item, qty: 1});
+      }
+    },
+    addQty(state, id) {
+      const currentItem = state.cart.find(product => product.id  === id);
+      currentItem.qty++
+    },
+    reduceQty(state, id){
+      const currentItem = state.cart.find(product => product.id  === id);
+      currentItem.qty--
+    },
+    removeItem(state,id){
+      state.cart = state.cart.filter(product => product.id !== id);
     },
   },
 });

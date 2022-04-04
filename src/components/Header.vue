@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1">Product</span>
+      <span class="navbar-brand mb-0 h1">Toserba Bule Jaksel</span>
       <span class="navbar-brand mb-0 h1">Cart (0)</span>
     </nav>
   </div>
