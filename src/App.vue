@@ -1,16 +1,21 @@
 <template>
   <div id="app">
- 
+    <Header />
+    <ProductList />
   </div>
 </template>
 
 <script>
+import Header from "./components/Header";
+import ProductList from "./components/ProductList";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  }
-}
+    Header,
+    ProductList,
+  },
+};
 </script>
 
 <style>
@@ -20,6 +25,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

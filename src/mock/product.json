@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "title": "Beras Kiloan",
+      "price": 5,
+      "imgUrl": "https://sribu-sg.s3.amazonaws.com/assets/media/contest_attachment/b6de0fc626f79718b0bbe30abbf79604/d5386f462f.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Minyak Goreng 2L",
+      "price": 3,
+      "imgUrl": "https://sribu-sg.s3.amazonaws.com/assets/media/contest_attachment/4edae7107d1a446817418cd892a3720d/fe41f09cee.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Santan Kelapa",
+      "price": 1,
+      "imgUrl": "https://ervologi.com/wp-content/uploads/2022/04/Santan-Kara.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Margarin",
+      "price": 2,
+      "imgUrl": "https://img.memecdn.com/butter-jpg_o_3377699725002327.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Susu Full Cream UHT",
+      "price": 1,
+      "imgUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/94/MTA-5277072/ultra_jaya_susu_ultra_milk_full_cream_1000ml_-_star_farm_full01_d2xc2pfm.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Tissue Wajah",
+      "price": 3,
+      "imgUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/plenty_buy-2-get-4---plenty-facial-tissue-softpack-plft-001-tissue-wajah--280-sheets----green_full02.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Sabun Cuci Piring",
+      "price": 2,
+      "imgUrl": "https://th.bing.com/th/id/R.d2739d0b191fab91e9090e37bff8bb0c?rik=R5Yvn%2fArVJxx8w&riu=http%3a%2f%2fjasabacklinkindonesia.com%2fwp-content%2fuploads%2f2015%2f09%2fFormula-Sabun-Cair-Cuci-Piring-Komplit-dalam-1-Produk-1024x1024.jpg&ehk=Wp5oroFEzx3JSKQyvinahJ0DgJtaU6E407lT2S0Rvjc%3d&risl=&pid=ImgRaw&r=0"
+
+    },
+    {
+      "id": 8,
+      "title": "Detergen Cair",
+      "price": 4,
+      "imgUrl": "https://img.orami.co.id/media/catalog/product/cache/1/image/730x/0dc2d03fe217f8c83829496872af24a0/L/D/LDET-SOKL-002A-1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Sirup Botol",
+      "price": 2,
+      "imgUrl": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/3/24/38c552a5-acad-4fbd-8b8e-6dcf4533870b.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Garam Meja",
+      "price": 1,
+      "imgUrl": "https://image1ws.indotrading.com/s3/productimages/co37129/p387091/1d7bec0a-d690-4959-9238-27ae7ef8c17ew.jpg"
+    }
+  ]
+  
