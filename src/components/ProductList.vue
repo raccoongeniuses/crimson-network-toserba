@@ -10,20 +10,33 @@
       <div class="card-body">
         <p class="card-title">{{ item.title }}</p>
         <p class="card-text">$ {{ item.price }}</p>
-        <a href="#" class="btn btn-primary">Add to cart</a>
+        <a href="#" @click="addToCart(item)" class="btn btn-primary">
+          Add to cart</a
+        >
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import products from "../mock/product.json";
+import { mapActions, mapGetters } from "vuex";
 export default {
   name: "ProductList",
-  data() {
-    return {
-      products,
-    };
+  mounted() {
+    this.getProducts();
+  },
+  computed: {
+    ...mapGetters(["products"]),
+  },
+  methods: {
+    ...mapActions(["getProducts", "addToCart"]),
   },
 };
 </script>
+
+<style scoped>
+.card {
+  padding: 20px;
+  border: none;
+}
+</style>
